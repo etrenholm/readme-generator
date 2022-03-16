@@ -101,7 +101,11 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Select a license for your application (Check one)',
-        choices: ['license option1', 'license option2', 'None'],
+        choices: [
+          'license option1', 
+          'license option2', 
+          'None'
+        ],
         validate: licenseInput => {
           if (licenseInput) {
             return true;
@@ -158,13 +162,14 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions)
-  .then(answers => {
-    return generateMarkdown(answers)
-  })
-  .then(data => {
-    return writeToFile('./dist/readme.md', data)
-  })
+  inquirer
+    .prompt(questions)
+    .then(response => {
+      return generateMarkdown(response)
+    })
+    .then(data => {
+      return writeToFile('./dist/readme.md', data)
+    })
 }
 
 // Function call to initialize app
