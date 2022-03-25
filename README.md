@@ -17,7 +17,7 @@ Create an application that a developer can use to quickly create a professional 
 To install this application, type “npm install" in the command line.
 
 ## Usage
-To run this application and generate your readme, type "node index.js" into the command line.
+To run this application and generate your readme, type "node index.js" in the command line.
 
 ## Technologies
 Project was updated using:
