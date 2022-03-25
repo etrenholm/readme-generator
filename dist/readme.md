@@ -6,17 +6,17 @@
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
-  * [Questions](#credit)
+  * [Questions](#questions)
   * [License](#license)
 
   ## Description
-  This is a generator which generates a markdown document using Node.js.
+  This is a generator which creates a markdown document using Node.js.
 
   ## Installation
-  To install this project, type "npm install" in your command line.
+  To install this project, tyoe "npm install" in your command line.
 
   ## Usage
-  To run this applications, type "node index.js" into your command line.
+  To run this application, type "node index.js" into your command line.
 
   ## Contributing
   To contribute, please contact me using the information below.

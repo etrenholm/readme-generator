@@ -58,8 +58,10 @@ Project was updated using:
 * Finished README
 
 ## Results
-* VIDEO LINK HERE!!
-* https://github.com/etrenholm/readme-generator
+* [Video Link](https://drive.google.com/file/d/1_o6CpJGmlw8sMHTP8tckYGGgMRaLOaMH/view)
+* [GitHub Repository](https://github.com/etrenholm/readme-generator)
+
+![mockup](./assets/Demo.gif)
 
 ## Credit
 Erica Trenholm: https://github.com/etrenholm
